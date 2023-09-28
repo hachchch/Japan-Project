@@ -1,0 +1,170 @@
+[
+        {
+                "columnNumber": 0,
+                "era": "Jomon era",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+                        {
+                                "name": "Drifting to Japan",
+                                "row": 6,
+                                "uniques": ["Starting tech"],
+                        },
+                ]
+        },
+        {
+                "columnNumber": 1,
+                "era": "Jomon era",
+                "techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+                        {
+                                "name": "Earthenware",
+                                "row": 2,
+                                "prerequisites": ["Drifting to Japan"],
+                        },
+                        {
+                                "name": "Polished Tool",
+                                "row": 5,
+                                "prerequisites": ["Drifting to Japan"],
+                        },
+                        {
+                                "name": "Hunting",
+                                "row": 7,
+                                "prerequisites": ["Drifting to Japan"],
+                        },
+                        {
+                                "name": "Camping",
+                                "row": 9,
+                                "prerequisites": ["Drifting to Japan"],
+                        },
+                ]
+        },
+        {
+                "columnNumber": 2,
+		"era": "Jomon era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+                        {
+                                "name": "Pit Dwelling",
+                                "row": 9,
+                                "prerequisites": ["Camping"],
+                        },
+                        {
+                                "name": "Furnace",
+                                "row": 10,
+                                "prerequisites": ["Camping"],
+                        },
+                        {
+                                "name": "microlith",
+                                "row": 5,
+                                "prerequisites": ["Polished Tool"],
+                        },
+                        {
+                                "name": "Archery",
+                                "row": 7,
+                                "prerequisites": ["Hunting"],
+                        },
+                        {
+                                "name": "Sailing",
+                                "row": 1,
+                                "prerequisites": ["Earthenware"],
+                        },
+                        {
+                                "name": "Agriculture",
+                                "row": 2,
+                                "prerequisites": ["Earthenware"],
+                        },
+                        {
+                                "name": "Connection to China",
+                                "row": 3,
+                                "prerequisites": ["Earthenware"],
+                        },
+                ]
+        },
+        {
+                "columnNumber": 3,
+		"era": "Yayoi era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+                        {
+                                "name": "Pottery",
+                                "row": 3,
+                                "prerequisites": ["Connection to China","Agriculture"],
+                        },
+                        {
+                                "name": "Bronze Working",
+                                "row": 10,
+                                "prerequisites": ["Furnace"],
+                        },
+                        {
+                                "name": "Irrigation",
+                                "row": 2,
+                                "prerequisites": ["Agriculture"],
+                        },
+                        {
+                                "name": "Stilt Warehouse",
+                                "row": 9,
+                                "prerequisites": ["Pit Dwelling"],
+                        },
+                ]
+        },
+        {
+                "columnNumber": 4,
+		"era": "Yayoi era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+                        {
+                                "name": "Optics",
+                                "row": 1,
+                                "prerequisites": ["Sailing"],
+                        },
+                        {
+                                "name": "Iron Working",
+                                "row": 10,
+                                "prerequisites": ["Bronze Working"],
+                        },
+                        {
+                                "name": "Animal Husbandry",
+                                "row": 7,
+                                "prerequisites": ["Archery"],
+                        },
+                        {
+                                "name": "Writing",
+                                "row": 2,
+                                "prerequisites": ["Irrigation"],
+                        },
+                        {
+                                "name": "Construction",
+                                "row": 9,
+                                "prerequisites": ["Stilt Warehouse"],
+                        },
+                ]
+        },
+        {
+                "columnNumber": 5,
+		"era": "Asuka era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+                        {
+                                "name": "Philosophy",
+                                "row": 2,
+                                "prerequisites": ["Writing"],
+                        },
+                        {
+                                "name": "Engineering",
+                                "row": 1,
+                                "prerequisites": ["Writing"],
+                        },
+                ]
+]
