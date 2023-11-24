@@ -522,19 +522,19 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Advanced Services",
+				"name": "Advanced Service",
 				"row": 1,
-                                "prerequisites": ["European Techs"],
+                                "prerequisites": ["Free Market","Europe-Japan Trading","Armored Horse Riding"],
 			},
 			{
 				"name": "Daimyo Laws",
 				"row": 10,
-                                "prerequisites": ["European Techs"],
+                                "prerequisites": ["Samurai Chivalry"],
 			},
 			{
 				"name": "Edo Innovations",
 				"row": 5,
-                                "prerequisites": ["European Techs"],
+                                "prerequisites": ["European Techs","Gunpowder","Steel"],
 			}
 		]
 	},
@@ -546,9 +546,9 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Electricity",
-				"row": 3,
-                                "prerequisites": ["Edo Innovations"],
+				"name": "Monopoly Guild",
+				"row": 1,
+                                "prerequisites": ["Advanced Service"],
 			},
 			{
 				"name": "Printing Press",
@@ -585,12 +585,19 @@
 				"prerequisites": ["Printing Press"]
 			},
 			{
+				"name": "Electricity",
+				"row": 3,
+                                "prerequisites": ["Printing Press"],
+			},
+			{
 				"name": "Geometry",
 				"row": 7,
 				"prerequisites": ["Education"]
 			},
 			{
-				"name": "",
+				"name": "Machinery",
+				"row": 9,
+				"prerequisites": ["Physics"]
 			},
 		]
 	}
