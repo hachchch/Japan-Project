@@ -77,7 +77,7 @@
                         {
                                 "name": "Agriculture",
                                 "row": 2,
-                                "prerequisites": ["Earthenware"],
+                                "prerequisites": ["Earthenware","Polished Tool"],
                         },
                         {
                                 "name": "Connection to China",
