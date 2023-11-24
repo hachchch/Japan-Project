@@ -460,7 +460,7 @@
 			},
 			{
 				"name": "Higashiyama Culture",
-				"row": 7,
+				"row": 10,
                                 "prerequisites": ["Favor and Prise"]
 			},
 			{
@@ -573,7 +573,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Bakumatsu",
 		"techCost": 275,
 		"buildingCost": 120,
