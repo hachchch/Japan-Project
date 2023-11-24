@@ -248,10 +248,12 @@
 		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
-		"techs" [
+		"techs": [
 			{
-				
-			},
+				"name": "Mega Engineering",
+				"row": 2,
+                                "prerequisites": ["Mathmatics","Administration"],
+			}
 		]
 	}
 ]
