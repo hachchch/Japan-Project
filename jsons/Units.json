@@ -21,6 +21,15 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"attackSound": "metalhit",
-        }
+		"attackSound": "nonmetalhit",
+        },
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"uniques": ["May upgrade to [Ishiyari Warrior] through ruins-like effects", "Never appears as a Barbarian unit","Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
 ]
