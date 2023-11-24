@@ -113,6 +113,11 @@
                                 "row": 9,
                                 "prerequisites": ["Pit Dwelling"],
                         },
+			{
+				"name": "Wooden Reinforced",
+                                "row": 4,
+                                "prerequisites": ["Microlith","Connection to China"],
+			}
                 ]
         },
         {
@@ -126,7 +131,17 @@
                                 "name": "Optics",
                                 "row": 1,
                                 "prerequisites": ["Sailing"],
-                        },
+			},
+			{
+				"name": "The Wheel",
+                                "row": 4,
+                                "prerequisites": ["Wooden Reinforced","Pottery"],
+			},
+			{
+				"name": "Porcelain",
+				"row": 3,
+				"prerequisites": ["Pottery"],
+			},
                         {
                                 "name": "Iron Working",
                                 "row": 10,
@@ -145,7 +160,7 @@
                         {
                                 "name": "Construction",
                                 "row": 9,
-                                "prerequisites": ["Stilt Warehouse"],
+                                "prerequisites": ["Wooden Reinforced","Stilt Warehouse"],
                         },
                 ]
         },
@@ -159,13 +174,84 @@
                         {
                                 "name": "Philosophy",
                                 "row": 2,
-                                "prerequisites": ["Writing"],
+                                "prerequisites": ["Writing","Optics"],
                         },
                         {
                                 "name": "Engineering",
-                                "row": 1,
-                                "prerequisites": ["Writing"],
+                                "row": 3,
+                                "prerequisites": ["The Wheel","Construction","Porcelain"],
                         },
+			{
+				"name": "Katana Recipe",
+				"row": 10,
+                                "prerequisites": ["Iron Working"],
+			},
+			{
+				"name": "Reinforced Sailing",
+				"row": 9,
+                                "prerequisites": ["Construction"],
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 7,
+                                "prerequisites": ["Animal Husbandry"],
+			},
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Asuka era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Korean Sea Warfare",
+				"row": 9,
+                                "prerequisites": ["Reinforced Sailing"],
+			},
+			{
+				"name": "Naginata Recipe",
+				"row": 10,
+                                "prerequisites": ["Iron Working"],
+			},
+			{
+				"name": "Administration",
+				"row": 2,
+                                "prerequisites": ["Philosophy"],
+			},
+			{
+				"name": "Tax and Employ",
+				"row": 1,
+                                "prerequisites": ["Philosophy"],
+			},
+			{
+				"name": "Idolatrous Sculpture",
+				"row": 2,
+                                "prerequisites": ["Philosophy","Engineering"],
+			},
+			{
+				"name": "Civil Service",
+				"row": 3,
+                                "prerequisites": ["Philosophy","Engineering"],
+			},
+			{
+				"name": "Mathmatics",
+				"row": 5,
+                                "prerequisites": ["Philosophy","Engineering"],
+			},
                 ]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Nara era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs" [
+			{
+				
+			},
+		]
 	}
 ]
