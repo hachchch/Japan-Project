@@ -7,7 +7,7 @@
 		"wonderCost": 185,
 		"techs": [
                         {
-                                "name": "Drifting to Japan",
+                                "name": "Tenchi Kaibyaku",
                                 "row": 6,
                                 "uniques": ["Starting tech"],
                         },
@@ -23,22 +23,22 @@
                         {
                                 "name": "Earthenware",
                                 "row": 2,
-                                "prerequisites": ["Drifting to Japan"],
+                                "prerequisites": ["Tenchi Kaibyaku"],
                         },
                         {
                                 "name": "Polished Tool",
                                 "row": 5,
-                                "prerequisites": ["Drifting to Japan"],
+                                "prerequisites": ["Tenchi Kaibyaku"],
                         },
                         {
                                 "name": "Hunting",
                                 "row": 7,
-                                "prerequisites": ["Drifting to Japan"],
+                                "prerequisites": ["Tenchi Kaibyaku"],
                         },
                         {
                                 "name": "Camping",
                                 "row": 9,
-                                "prerequisites": ["Drifting to Japan"],
+                                "prerequisites": ["Tenchi Kaibyaku"],
                         },
                 ]
         },
@@ -60,7 +60,7 @@
                                 "prerequisites": ["Camping"],
                         },
                         {
-                                "name": "microlith",
+                                "name": "Microlith",
                                 "row": 5,
                                 "prerequisites": ["Polished Tool"],
                         },
