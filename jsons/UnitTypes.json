@@ -16,6 +16,14 @@
                 "movementType": "Land"
         },
         {
+                "name": "Archery",
+                "movementType": "Land"
+        },
+        {
+                "name": "Gunpowder",
+                "movementType": "Land"
+        },
+        {
                 "name": "Siege",
                 "movementType": "Land"
         }
