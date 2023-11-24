@@ -284,6 +284,11 @@
                                 "prerequisites": ["Idolatrous Sculpture","Capital Planning"],
 			},
 			{
+				"name": "Mass Destruction",
+				"row": 5,
+                                "prerequisites": ["Mass Construction"],
+			},
+			{
 				"name": "Manor Nobility",
 				"row": 9,
                                 "prerequisites": ["Currency"],
@@ -308,9 +313,34 @@
 		"wonderCost": 300,
 		"techs": [
 			{
+				"name": "Literature",
+				"row": 2,
+                                "prerequisites": ["History Preservation"],
+			},
+			{
+				"name": "Onmyoudo",
+				"row": 4,
+				"prerequisites": ["Mythology"],
+			},
+			{
+				"name": "Shinden Style Architecture",
+				"row": 5,
+				"prerequisites": ["Mass Destruction","Manor Nobility"],
+			},
+			{
+				"name": "Drama and Poetry",
+				"row": 3,
+                                "prerequisites": ["Mythology"],
+			},
+			{
 				"name": "Aristocrat Tyranny",
 				"row": 9,
                                 "prerequisites": ["Manor Nobility"],
+			},
+			{
+				"name": "Mercenary",
+				"row": 7,
+                                "prerequisites": ["Metal Casting"],
 			},
 			{
 				"name": "Katana Recipe",
@@ -332,10 +362,34 @@
                                 "prerequisites": ["Aristocrat Tyranny"],
 			},
 			{
+				"name": "Dramatic Essay",
+				"row": 2,
+                                "prerequisites": ["Drama and Poetry","Literature"],
+			},
+			{
+				"name": "Masonary",
+				"row": 5,
+				"prerequisites": ["Shinden Style Architecture"],
+			},
+			{
+				"name": "Bajutsu",
+				"row": 7,
+                                "prerequisites": ["Shinden Style Architecture","Mercenary"],
+			},
+			{
 				"name": "Kenjutsu",
 				"row": 10,
                                 "prerequisites": ["Katana Recipe"],
 			},
 		]
-	}
+	},
+	{
+		"columnNumber": 10,
+		"era": "Heian era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				
 ]
