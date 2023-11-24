@@ -10,10 +10,71 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
         },
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
         {
                 "name": "World's Oldest Earthenware",
                 "isWonder": true,
                 "culture": 6,
                 "requiredTech": "Earthenware"
-        }
+        },
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Stilt Warehouse"
+	},
+	{
+		"name": "Kofun",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Construction",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Kojiki",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"isWonder": true,
+		"uniques": ["[+1 Faith, +1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Paper Maker",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Houryuji",
+		"isWonder": true,
+		"uniques": ["[+300]% Natural religion spread [in capital]"],
+		"culture": 3,
+		"requiredTech": "Engineering",
+	},
+	{
+		"name": "Five-Storied Pagoda",
+		"isWonder": true,
+		"faith": 3,
+		"science": 3,
+		"requiredTech": "Engineering",
+	},
+	{
+		"name": "Taika Revolution",
+		"isWonder": true,
+		"culture": 3,
+		"uniques": ["Each city founded increases culture cost of policies [33]% less than normal","[-5]% maintenance costs"],
+		"requiredTech": "Philosophy",
+	},
 ]
