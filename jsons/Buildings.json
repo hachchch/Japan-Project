@@ -29,9 +29,6 @@
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Stilt Warehouse"
 	},
 	{
@@ -76,5 +73,11 @@
 		"culture": 3,
 		"uniques": ["Each city founded increases culture cost of policies [33]% less than normal","[-5]% maintenance costs"],
 		"requiredTech": "Philosophy",
+	},
+	{
+		"name": "Copper Mirror",
+		"isNationalWonder": true,
+		"faith": 3,
+		"requiredTech": "Optics",
 	},
 ]
