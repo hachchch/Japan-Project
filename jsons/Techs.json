@@ -182,7 +182,7 @@
                                 "prerequisites": ["The Wheel","Construction","Porcelain"],
                         },
 			{
-				"name": "Katana Recipe",
+				"name": "Yari Recipe",
 				"row": 10,
                                 "prerequisites": ["Iron Working"],
 			},
@@ -206,14 +206,14 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Korean Sea Warfare",
+				"name": "Trade and Warfare",
 				"row": 9,
                                 "prerequisites": ["Reinforced Sailing"],
 			},
 			{
-				"name": "Naginata Recipe",
+				"name": "Tate Recipe",
 				"row": 10,
-                                "prerequisites": ["Iron Working"],
+                                "prerequisites": ["Yari Recipe"],
 			},
 			{
 				"name": "Administration",
@@ -250,6 +250,16 @@
                                 "prerequisites": ["Administration"],
 			},
 			{
+				"name": "Naginata Recipe",
+				"row": 10,
+                                "prerequisites": ["Tate Recipe"],
+			},
+			{
+				"name": "Currency",
+				"row": 9,
+                                "prerequisites": ["Trade and Warfare"],
+			},
+			{
 				"name": "Capital Planning",
 				"row": 3,
                                 "prerequisites": ["Civil Service","Administration"],
@@ -257,7 +267,7 @@
 			{
 				"name": "Mass Construction",
 				"row": 4,
-                                "prerequisites": ["Mathmatics","Administration"],
+                                "prerequisites": ["Mathmatics","Civil Service"],
 			}
 		]
 	},
@@ -274,10 +284,58 @@
                                 "prerequisites": ["Idolatrous Sculpture","Capital Planning"],
 			},
 			{
+				"name": "Manor Nobility",
+				"row": 9,
+                                "prerequisites": ["Currency"],
+			},
+			{
+				"name": "Metal Casting",
+				"row": 10,
+                                "prerequisites": ["Naginata Recipe"],
+			},
+			{
 				"name": "Mythology",
 				"row": 3,
 				"prerequisites": ["Capital Planning"],
 			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Heian era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Aristocrat Tyranny",
+				"row": 9,
+                                "prerequisites": ["Manor Nobility"],
+			},
+			{
+				"name": "Katana Recipe",
+				"row": 10,
+                                "prerequisites": ["Metal Casting"],
+			},
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Heian era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Regent Politics",
+				"row": 9,
+                                "prerequisites": ["Aristocrat Tyranny"],
+			},
+			{
+				"name": "Kenjutsu",
+				"row": 10,
+                                "prerequisites": ["Katana Recipe"],
+			},
 		]
 	}
 ]
