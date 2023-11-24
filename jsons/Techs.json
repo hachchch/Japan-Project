@@ -226,11 +226,6 @@
                                 "prerequisites": ["Philosophy"],
 			},
 			{
-				"name": "Idolatrous Sculpture",
-				"row": 2,
-                                "prerequisites": ["Philosophy","Engineering"],
-			},
-			{
 				"name": "Civil Service",
 				"row": 3,
                                 "prerequisites": ["Philosophy","Engineering"],
@@ -250,9 +245,38 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Mega Engineering",
+				"name": "Idolatrous Sculpture",
 				"row": 2,
+                                "prerequisites": ["Administration"],
+			},
+			{
+				"name": "Capital Planning",
+				"row": 3,
+                                "prerequisites": ["Civil Service","Administration"],
+			},
+			{
+				"name": "Mass Construction",
+				"row": 4,
                                 "prerequisites": ["Mathmatics","Administration"],
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Nara era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "History Preservation",
+				"row": 2,
+                                "prerequisites": ["Idolatrous Sculpture","Capital Planning"],
+			},
+			{
+				"name": "Mythology",
+				"row": 3,
+				"prerequisites": ["Capital Planning"],
 			}
 		]
 	}
