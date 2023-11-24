@@ -384,12 +384,214 @@
 		]
 	},
 	{
-		"columnNumber": 10,
-		"era": "Heian era",
+		"columnNumber": 11,
+		"era": "Kamakura era",
 		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
 			{
-				
+				"name": "Bushido",
+				"row": 7,
+                                "prerequisites": ["Kenjutsu","Bajutsu"]
+			},
+			{
+				"name": "Shogunate",
+				"row": 5,
+                                "prerequisites": ["Masonary","Bajutsu"]
+			},
+			{
+				"name": "Military Government",
+				"row": 9,
+                                "prerequisites": ["Kenjutsu","Regent Politics"]
+			},
+			{
+				"name": "Dramatic War",
+				"row": 2,
+                                "prerequisites": ["Dramatic Essay"],
+			},
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Kamakura era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Organized Religion",
+				"row": 2,
+                                "prerequisites": ["Dramatic War"],
+			},
+			{
+				"name": "Authoritarian Government",
+				"row": 9,
+                                "prerequisites": ["Military Government"]
+			},
+			{
+				"name": "Favor and Prise",
+				"row": 5,
+                                "prerequisites": ["Shogunate","Bushido"]
+			},
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Muromachi era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Navigation",
+				"row": 2,
+                                "prerequisites": ["Favor and Prise","Organized Religion"],
+			},
+			{
+				"name": "Guilds",
+				"row": 5,
+                                "prerequisites": ["Favor and Prise"]
+			},
+			{
+				"name": "Japan-China Trading",
+				"row": 7,
+                                "prerequisites": ["Favor and Prise"]
+			},
+			{
+				"name": "Higashiyama Culture",
+				"row": 7,
+                                "prerequisites": ["Favor and Prise"]
+			},
+			{
+				"name": "Onin Event",
+				"row": 9,
+                                "prerequisites": ["Organized Religion","Favor and Prise","Authoritarian Government"]
+			},
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Muromachi era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "European Techs",
+				"row": 1,
+                                "prerequisites": ["Navigation","Onin Event"],
+			},
+			{
+				"name": "Gunpowder",
+				"row": 2,
+                                "prerequisites": ["Navigation","Onin Event"],
+			},
+			{
+				"name": "Steel",
+				"row": 10,
+                                "prerequisites": ["Onin Event"],
+			},
+			{
+				"name": "Armored Horse Riding",
+				"row": 4,
+                                "prerequisites": ["Onin Event"],
+			},
+			{
+				"name": "Europe-Japan Trading",
+				"row": 7,
+                                "prerequisites": ["Japan-China Trading","Onin Event"],
+			},
+			{
+				"name": "Free Market",
+				"row": 5,
+                                "prerequisites": ["Guilds","Onin Event"],
+			},
+			{
+				"name": "Samurai Chivalry",
+				"row": 9,
+                                "prerequisites": ["Onin Event"],
+			},
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Edo era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Advanced Services",
+				"row": 1,
+                                "prerequisites": ["European Techs"],
+			},
+			{
+				"name": "Daimyo Laws",
+				"row": 10,
+                                "prerequisites": ["European Techs"],
+			},
+			{
+				"name": "Edo Innovations",
+				"row": 5,
+                                "prerequisites": ["European Techs"],
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Edo era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Electricity",
+				"row": 3,
+                                "prerequisites": ["Edo Innovations"],
+			},
+			{
+				"name": "Printing Press",
+				"row": 4,
+                                "prerequisites": ["Edo Innovations"],
+			},
+			{
+				"name": "Education",
+				"row": 7,
+                                "prerequisites": ["Edo Innovations"],
+			},
+			{
+				"name": "Physics",
+				"row": 9,
+                                "prerequisites": ["Edo Innovations"],
+			},
+			{
+				"name": "Sankin Koutai",
+				"row": 10,
+                                "prerequisites": ["Daimyo Laws"],
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Bakumatsu",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Biology",
+				"row": 4,
+				"prerequisites": ["Printing Press"]
+			},
+			{
+				"name": "Geometry",
+				"row": 7,
+				"prerequisites": ["Education"]
+			},
+			{
+				"name": "",
+			},
+		]
+	}
 ]
