@@ -77,7 +77,127 @@
 	{
 		"name": "Copper Mirror",
 		"isNationalWonder": true,
-		"faith": 3,
-		"requiredTech": "Optics",
+		"faith": 2,
+		"requiredTech": "Bronze Working",
+	},
+	{
+		"name": "Daisen Kofun",
+		"isWonder": true,
+		"faith": 9,
+		"requiredTech": "Construction",
+	},
+	{
+		"name": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Tax and Employ"
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Wooden Reinforced",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Water Mill",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Toudaiji",
+		"isNationalWonder": true,
+		"culture": 8,
+		"requiredTech": "Mass Construction",
+	},
+	{
+		"name": "Great Buddha",
+		"isWonder": true,
+		"culture": 3,
+		"requiredTech": "Mass Construction",
+		"uniques": ["[-35]% Unhappiness from [Followers of the Majority Religion] [in all cities]"]
+	},
+	{
+		"name": "Golden Temple"
+		"isWonder": true,
+		"gold": 50,
+		"requiredTech": "Japan-China Trading",
+		"uniques": ["Empire enters a [20]-turn Golden Age"]
+	},
+	{
+		"name": "Onsen",
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Mountain]"],
+		"requiredTech": "Irrigation"
+	},
+	{
+		"name": "Cemetery",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Philosphy"
+	},
+	{
+		"name": "Heroic Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Shogunate"
+	},
+	{
+		"name": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Temple of Wise",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Paper Maker] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 ]
