@@ -367,7 +367,7 @@
                                 "prerequisites": ["Drama and Poetry","Literature"],
 			},
 			{
-				"name": "Masonary",
+				"name": "Masonry",
 				"row": 5,
 				"prerequisites": ["Shinden Style Architecture"],
 			},
@@ -398,7 +398,7 @@
 			{
 				"name": "Shogunate",
 				"row": 5,
-                                "prerequisites": ["Masonary","Bajutsu"]
+                                "prerequisites": ["Masonry","Bajutsu"]
 			},
 			{
 				"name": "Military Government",
