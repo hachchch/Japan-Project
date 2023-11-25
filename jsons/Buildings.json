@@ -54,6 +54,11 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Shrine",
+		"faith": 1,
+		"cost": 30,
+	},
+	{
 		"name": "Houryuji",
 		"isWonder": true,
 		"uniques": ["[+300]% Natural religion spread [in capital]"],
@@ -163,7 +168,7 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]"],
-		"requiredTech": "Philosphy"
+		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Heroic Epic",
