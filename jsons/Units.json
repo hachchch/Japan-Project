@@ -16,7 +16,7 @@
 		"hurryCostModifier": 20
         },
         {
-                "name": "Warrior",
+                "name": "Ishiyari Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
