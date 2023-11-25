@@ -1,4 +1,39 @@
 [
+	{
+		"name": "Cattle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
+					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Sheep",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
+					"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
+					"Generated on every [25] tiles <in [Plains] [Forest] tiles> <in tiles without [Hill]>",
+					"Generated on every [25] tiles <in [Grassland] [Forest] tiles> <in tiles without [Hill]>",
+					"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>",
+					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+	},
+	// Strategic
         {
                 "name": "Horses",
 		"resourceType": "Strategic",
