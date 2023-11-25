@@ -1,9 +1,9 @@
 [
         {
-                "name": "Terraforming",
-        "victoryScreenHeader": "Construct the necessary terraforming buildings and\nbuild the Global Terraforming Project to win!",
-        "milestones": ["Build [Global Terraforming Project]","Build [National Sabbath]"],
-        "victoryString": "You have wrestled and shaped the planet under your control. Your efforts here will surely be replicated on old Earth! Humanity owes you a second chance in restoring Earth's ecological balance.",
+                "name": "Time",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Have highest score after max turns"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
         }
 ]
