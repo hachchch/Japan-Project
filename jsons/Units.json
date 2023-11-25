@@ -41,7 +41,7 @@
 		"strength": 9,
 		"cost": 45,
 		"requiredTech": "Bronze Working",
-		"attackSound": "metalhit",
+		"attackSound": "nonmetalhit",
 	},
 	{
 		"name": "Swordsman",
@@ -72,12 +72,22 @@
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"]
 	},
 	{
-		"name": "Yari and Sheild",
+		"name": "Yari and Sheilds",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
 		"cost": 40,
 		"attackSound": "nonmetalhit",
+		"requiredTech": "Tate Recipe"
+		"uniques": ["[+100]% Strength <when defending> <vs [Ranged] units>"]
+	},
+	{
+		"name": "Sword and Sheilds",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 40,
+		"attackSound": "metalhit",
 		"requiredTech": "Tate Recipe"
 		"uniques": ["[+100]% Strength <when defending> <vs [Ranged] units>"]
 	},
