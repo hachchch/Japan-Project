@@ -24,6 +24,44 @@
 		"attackSound": "nonmetalhit",
         },
 	{
+		"name": "Yari Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 40,
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Yari Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 40,
+		"attackSound": "nonmetalhit",
+		"requiredTech": "Yari Recipe"
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"]
+	},
+	{
+		"name": "Yari and Sheild",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 40,
+		"attackSound": "nonmetalhit",
+		"requiredTech": "Tate Recipe"
+		"uniques": ["[+100]% Strength <when defending> <vs [Ranged] units>"]
+	},
+	{
+                "name": "Naginata Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 40,
+		"requiredTech": "Naginata Recipe"
+		"attackSound": "nonmetalhit",
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"]
+        },
+	{
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
