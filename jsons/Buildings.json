@@ -256,6 +256,15 @@
 		"culture": 3,
 	},
 	{
+		"name": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Mass Construction"
+	},
+	{
 		"name": "Sakai",
 		"isWonder": true,
 		"requiredTech": "Onin Event",
