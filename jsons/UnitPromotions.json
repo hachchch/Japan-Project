@@ -74,7 +74,7 @@
 	},
 	{
 		"name": "Indirect Fire",
-		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"prerequisites": ["Accuracy III", "Barrage III"/*, "Bombardment II", "Targeting II"*/],// ここも
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Archery","Siege"],
         "column": 3,
