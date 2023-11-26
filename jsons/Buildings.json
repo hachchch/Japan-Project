@@ -205,4 +205,60 @@
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
+	{
+		"name": "Machishu",
+		"isWonder": true,
+		"requiredTech": "Onin Event",
+		"uniques": ["Free [Great Merchant] appears","Gain a free [Market] [in all cities]"]
+	},
+	{
+		"name": "Market",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Trade and Warfare"
+	},
+	{
+		"name": "Mint",
+		"gold": 4,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Trade Association",
+		"gold": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": ["[+1 Food, +1 Production, +2 Gold] from [Luxury resource] tiles [in this city]", "Gain a free [Market] [in this city]", "[+6 Culture] [in this city] <after discovering [Guilds]>"],
+		"requiredTech": "Trade and Warfare",
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"culture": 1,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "History Preservation"
+	},
+	{
+		"name": "The Tale of Genji",
+		"isWonder": true,
+		"requiredTech": "Literature",
+		"culture": 1,
+		"uniques": ["[+2 Culture] from all [Library] buildings"]
+	},
+	{
+		"name": "Nohgaku",
+		"specialistSlots": {"Artist": 1},
+		"requiredTech": "Drama and Poetry",
+		"culture": 3,
+	},
+	{
+		"name": "Sakai",
+		"isWonder": true,
+		"requiredTech": "Onin Event",
+		"uniques": ["Free [Great Engineer] appears","Gain a free [Workshop] [in all cities]"]
+	},
 ]
