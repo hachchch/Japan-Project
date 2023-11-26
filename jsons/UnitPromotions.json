@@ -66,7 +66,7 @@
 	},
 	{
 		"name": "Extended Range",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
+		"prerequisites": ["Accuracy III","Barrage III"/*,"Targeting II","Bombardment II", "Wolfpack II"*/],// テストプレイ用に変更したので変える必要があります。
 		"uniques": ["[+1] Range"],
 		"unitTypes": ["Archery","Siege"],
         "column": 3,
