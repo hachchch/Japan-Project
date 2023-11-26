@@ -1,4 +1,4 @@
-[
+	[
         {
                 "columnNumber": 0,
                 "era": "Jomon era",
@@ -202,7 +202,7 @@
 		"columnNumber": 6,
 		"era": "Asuka era",
 		"techCost": 105,
-		"buildingCost": 120,
+		"buildingCost": 140,
 		"wonderCost": 300,
 		"techs": [
 			{
@@ -231,7 +231,7 @@
                                 "prerequisites": ["Philosophy","Engineering"],
 			},
 			{
-				"name": "Mathmatics",
+				"name": "Mathmatic",
 				"row": 5,
                                 "prerequisites": ["Philosophy","Engineering"],
 			},
@@ -241,8 +241,8 @@
 		"columnNumber": 7,
 		"era": "Nara era",
 		"techCost": 155,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 160,
+		"wonderCost": 350,
 		"techs": [
 			{
 				"name": "Idolatrous Sculpture",
@@ -267,7 +267,7 @@
 			{
 				"name": "Mass Construction",
 				"row": 4,
-                                "prerequisites": ["Mathmatics","Civil Service"],
+                                "prerequisites": ["Mathmatic","Civil Service"],
 			}
 		]
 	},
@@ -275,8 +275,8 @@
 		"columnNumber": 8,
 		"era": "Nara era",
 		"techCost": 195,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 180,
+		"wonderCost": 350,
 		"techs": [
 			{
 				"name": "History Preservation",
@@ -309,8 +309,8 @@
 		"columnNumber": 9,
 		"era": "Heian era",
 		"techCost": 275,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 200,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Literature",
@@ -353,8 +353,8 @@
 		"columnNumber": 10,
 		"era": "Heian era",
 		"techCost": 345,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 220,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Regent Politics",
@@ -387,8 +387,8 @@
 		"columnNumber": 11,
 		"era": "Kamakura era",
 		"techCost": 455,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 240,
+		"wonderCost": 450,
 		"techs": [
 			{
 				"name": "Bushido",
@@ -416,8 +416,8 @@
 		"columnNumber": 12,
 		"era": "Kamakura era",
 		"techCost": 585,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 260,
+		"wonderCost": 450,
 		"techs": [
 			{
 				"name": "Organized Religion",
@@ -440,8 +440,8 @@
 		"columnNumber": 13,
 		"era": "Muromachi era",
 		"techCost": 705,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 280,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Navigation",
@@ -474,8 +474,8 @@
 		"columnNumber": 14,
 		"era": "Muromachi era",
 		"techCost": 875,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 300,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "European Techs",
@@ -518,8 +518,8 @@
 		"columnNumber": 15,
 		"era": "Edo era",
 		"techCost": 1005,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 320,
+		"wonderCost": 550,
 		"techs": [
 			{
 				"name": "Advanced Service",
@@ -542,8 +542,8 @@
 		"columnNumber": 16,
 		"era": "Edo era",
 		"techCost": 1230,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 340,
+		"wonderCost": 550,
 		"techs": [
 			{
 				"name": "Monopoly Guild",
@@ -576,8 +576,8 @@
 		"columnNumber": 17,
 		"era": "Bakumatsu",
 		"techCost": 1575,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 360,
+		"wonderCost": 600,
 		"techs": [
 			{
 				"name": "Biology",
