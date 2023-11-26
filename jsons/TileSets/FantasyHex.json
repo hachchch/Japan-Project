@@ -1,0 +1,9 @@
+{
+	"useColorAsBaseTerrain": "false",
+	"ruleVariants": {
+                "Grassland+Rice+Farm": ["Grassland","Farm","Rice"],
+                "Plains+Rice+Farm": ["Plains","Farm","Rice"],
+                "Desert+Rice+Farm": ["Desert","Farm","Rice"],
+                "Desert+Flood plains+Rice+Farm": ["Desert","Flood plains","Farm","Rice"],
+	},
+}
