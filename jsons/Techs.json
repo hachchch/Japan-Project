@@ -16,7 +16,7 @@
         {
                 "columnNumber": 1,
                 "era": "Jomon era",
-                "techCost": 35,
+                "techCost": 25,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
@@ -45,7 +45,7 @@
         {
                 "columnNumber": 2,
 		"era": "Jomon era",
-		"techCost": 55,
+		"techCost": 30,
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
@@ -89,7 +89,7 @@
         {
                 "columnNumber": 3,
 		"era": "Yayoi era",
-		"techCost": 105,
+		"techCost": 35,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -123,7 +123,7 @@
         {
                 "columnNumber": 4,
 		"era": "Yayoi era",
-		"techCost": 175,
+		"techCost": 50,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -167,7 +167,7 @@
         {
                 "columnNumber": 5,
 		"era": "Asuka era",
-		"techCost": 275,
+		"techCost": 70,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -201,7 +201,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Asuka era",
-		"techCost": 275,
+		"techCost": 105,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -240,7 +240,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Nara era",
-		"techCost": 275,
+		"techCost": 155,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -274,7 +274,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Nara era",
-		"techCost": 275,
+		"techCost": 195,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -352,7 +352,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Heian era",
-		"techCost": 275,
+		"techCost": 345,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -386,7 +386,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Kamakura era",
-		"techCost": 275,
+		"techCost": 455,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -415,7 +415,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Kamakura era",
-		"techCost": 275,
+		"techCost": 585,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -439,7 +439,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Muromachi era",
-		"techCost": 275,
+		"techCost": 705,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -473,7 +473,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Muromachi era",
-		"techCost": 275,
+		"techCost": 875,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -517,7 +517,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Edo era",
-		"techCost": 275,
+		"techCost": 1005,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -541,7 +541,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Edo era",
-		"techCost": 275,
+		"techCost": 1230,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -575,7 +575,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Bakumatsu",
-		"techCost": 275,
+		"techCost": 1575,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
