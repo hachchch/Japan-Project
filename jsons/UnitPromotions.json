@@ -1,6 +1,27 @@
 [
+        // ありがたい昇進
+        {
+                "name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery"],
+                "row": 0,
+                "column": 0
+        },
+        // 一般
+        {
+                
+        },
+        // 制限なし
+        {
+                "name": "Rejuvenation",
+		"uniques": ["All healing effects doubled"]
+        },
         {
                 "name": "Morale",
                 "uniques": ["[+15]% Strength"]
-        }
+        },
+        {
+                "name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+        },
 ]
