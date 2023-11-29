@@ -30,5 +30,13 @@
         {
                 "name": "Siege",
                 "movementType": "Land"
+        },
+        {
+                "name": "Mercenary",
+                "movementType": "Land"
+        },
+        {
+                "name": "Water Mercenary",
+                "movementType": "Water"
         }
 ]
