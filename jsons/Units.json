@@ -321,7 +321,7 @@
 		"cost": 40,
 		"attackSound": "horse",
 		"uniques": ["Samurai","Consumes [1] [Horses]","[-33]% Strength <vs cities> <when attacking>"],
-		"requiredTech": "Steel"
+		"requiredTech": "Armored Horse Riding"
 	},
 	{
 		"name": "Samurai Horse Archer",
@@ -334,7 +334,7 @@
 		"cost": 40,
 		"attackSound": "arrow",
 		"uniques": ["Samurai","Consumes [1] [Horses]","[-33]% Strength <vs cities> <when attacking>"],
-		"requiredTech": "Steel"
+		"requiredTech": "Armored Horse Riding"
 	},
 	{
 		"name": "Yumi Samurai",
