@@ -387,7 +387,7 @@
 		"requiredTech": "Samurai Chivalry",
 	},
 	{
-		"name": "Azuchi Castle",
+		"name": "Edo Castle",
 		"culture": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great General": 2},
