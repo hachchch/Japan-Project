@@ -17,9 +17,23 @@ TileSets/FantasyHex/Units/Yari and Shields
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Archer
+TileSets/FantasyHex/Units/Composite Bowman
   rotate: false
   xy: 826, 811
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman
+  rotate: false
+  xy: 826, 811
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Combat Archer
+  rotate: false
+  xy: 826, 761
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -61,6 +75,13 @@ TileSets/FantasyHex/Units/Archer
   index: -1
 TileSets/FantasyHex/Units/Sword and Shields
   rotate: false
+  xy: 876, 761
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Yari and Shields
+  rotate: false
   xy: 876, 811
   size: 32, 28
   orig: 32, 28
@@ -68,7 +89,126 @@ TileSets/FantasyHex/Units/Sword and Shields
   index: -1
 TileSets/FantasyHex/Units/Swordsman
   rotate: false
-  xy: 926, 811
+  xy: 926, 761
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Scientist
+  rotate: false
+  xy: 926, 711
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Prophet
+  rotate: false
+  xy: 876, 711
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bushi
+  rotate: false
+  xy: 976, 761
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Otachi Samurai
+  rotate: false
+  xy: 976, 811
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Yumi Samurai
+  rotate: false
+  xy: 976, 861
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Naginata Samurai
+  rotate: false
+  xy: 976, 911
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Noble Pikeman
+  rotate: false
+  xy: 1026, 861
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Noble Bushi
+  rotate: false
+  xy: 1026, 811
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Horseman
+  rotate: false
+  xy: 1026, 761
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Noble Horseman
+  rotate: false
+  xy: 1026, 711
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Noble Horse Archer
+  rotate: false
+  xy: 1076, 711
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kiba Samurai
+  rotate: false
+  xy: 1076, 761
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Noble Archer
+  rotate: false
+  xy: 1076, 811
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tanegashima
+  rotate: false
+  xy: 1076, 861
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Yari Ashigaru
+  rotate: false
+  xy: 1126, 861
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pipe Cannon
+  rotate: false
+  xy: 1076, 911
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Samurai Horse Archer
+  rotate: false
+  xy: 1126, 761
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
