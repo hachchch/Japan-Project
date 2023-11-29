@@ -73,6 +73,14 @@
         "row": 3
 	},
 	{
+		"name": "Fire Arrow",
+		"prerequisites": ["Accuracy I","Barrage I"],// テストプレイ用に変更したので変える必要があります。
+		"uniques": ["[+100]% Strength <vs [Tate] units> <when attacking>","[+10]% Strength <vs cities> <when attacking>","[+50]% Strength <vs [Wooden Ship] units> <when attacking>","[+50]% Strength <vs [Embarked] units> <when attacking>"],
+		"unitTypes": ["Archery"],
+        "column": 3,
+        "row": 1000
+	},
+	{
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III", "Barrage III"/*, "Bombardment II", "Targeting II"*/],// ここも
 		"uniques": ["Ranged attacks may be performed over obstacles"],
