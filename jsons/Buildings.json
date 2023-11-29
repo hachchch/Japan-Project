@@ -347,9 +347,9 @@
 		"name": "Armory",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredBuilding": "Kenjutsu",
+		"requiredBuilding": "Barracks",
+		"requiredTech": "Kenjutsu",
 		"uniques": ["New [Sword] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Dramatic War"
 	},
 	{
 		"name": "Samurai Residence",
@@ -364,7 +364,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"faith": 2,
-		"requiredBuilding": "European Tech",
+		"requiredBuilding": "European Techs",
 		"uniques": ["[+1 Faith] per [4] population [in this city]"],
 	},
 	{
