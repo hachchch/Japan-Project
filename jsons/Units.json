@@ -438,7 +438,7 @@
 		"strength": 28,
 		"cost": 200,
 		"requiredTech": "Europe-Japan Trading",
-		"uniques": ["European Mercenary","Gunpowder","Siege","[+200]% Strength <vs cities> <when attacking>","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["European Mercenary","Gunpowder","Siege","[+200]% Strength <vs cities> <when attacking>","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit","Unbuildable"],
 		"attackSound": "artillery"
 	},
 	{
@@ -450,7 +450,7 @@
 		"rangedStrength": 45,
 		"cost": 160,
 		"requiredTech": "Japan-China Trading",
-		"uniques": ["Chinese Mercenary","Archery","[+35]% Strength <vs [Melee] units> <when attacking>"],
+		"uniques": ["Chinese Mercenary","Archery","[+35]% Strength <vs [Melee] units> <when attacking>","Unbuildable"],
 		"attackSound": "crossbow"
 	},
 	{
@@ -462,7 +462,7 @@
 		"rangedStrength": 40,
 		"cost": 140,
 		"requiredTech": "Higashiyama Culture",
-		"uniques": ["Scout","May withdraw before melee ([40]%)","Can move after attacking","Can move immediately once bought","Can see over obstacles","Invisible to non-adjacent units","Can see invisible [Ninja] units","Ignores terrain cost","Ignores Zone of Control"],
+		"uniques": ["Scout","May withdraw before melee ([40]%)","Can move after attacking","Can move immediately once bought","Can see over obstacles","Invisible to non-adjacent units","Can see invisible [Ninja] units","Ignores terrain cost","Ignores Zone of Control","Unbuildable"],
 		"attackSound": "crossbow"
 	},
 	{
