@@ -167,7 +167,7 @@
 		"movement": 3,
 		"strength": 18,
 		"cost": 90,
-		"uniques": ["[-33]% Strength <vs cities> <when attacking>"]
+		"uniques": ["[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus"]
 		"requiredTech": "Horseback Riding",
 		"attackSound": "horse",
 	},
@@ -221,7 +221,7 @@
 		"cost": 40,
 		"attackSound": "horse",
 		"requiredTech": "Bajutsu",
-		"uniques": ["Gokenin","[-33]% Strength <vs cities> <when attacking>"]
+		"uniques": ["Gokenin","[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus"]
 	},
 	{
 		"name": "Noble Horse Archer",
@@ -234,7 +234,7 @@
 		"cost": 40,
 		"attackSound": "arrow",
 		"requiredTech": "Bajutsu",
-		"uniques": ["Gokenin","[-33]% Strength <vs cities> <when attacking>"]
+		"uniques": ["Gokenin","[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus"]
 	},
 	{
 		"name": "Noble Archer",
@@ -287,7 +287,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Ishiyari Warrior] through ruins-like effects", "Never appears as a Barbarian unit","Ignore terrain cost"],
+		"uniques": ["May upgrade to [Ishiyari Warrior] through ruins-like effects", "Never appears as a Barbarian unit","Ignore terrain cost","No defensive terrain bonus"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -320,7 +320,7 @@
 		"strength": 45,
 		"cost": 40,
 		"attackSound": "horse",
-		"uniques": ["Samurai","Consumes [1] [Horses]","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Samurai","Consumes [1] [Horses]","[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
 		"requiredTech": "Armored Horse Riding"
 	},
 	{
@@ -333,7 +333,7 @@
 		"strength": 45,
 		"cost": 40,
 		"attackSound": "arrow",
-		"uniques": ["Samurai","Consumes [1] [Horses]","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Samurai","Consumes [1] [Horses]","[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
 		"requiredTech": "Armored Horse Riding"
 	},
 	{
@@ -377,7 +377,7 @@
 		"strength": 35,
 		"cost": 40,
 		"attackSound": "horse",
-		"uniques": ["Ashigaru","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Ashigaru","[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
 		"requiredTech": "Onin Event"
 	},
 	{
@@ -391,5 +391,89 @@
 		"attackSound": "arrow",
 		"uniques": ["Ashigaru"],
 		"requiredTech": "Onin Event"
+	},
+	{
+		"name": "Pipe Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 30,
+		"strength": 35,
+		"cost": 40,
+		"attackSound": "cannon",
+		"uniques": ["Ashigaru","Gunpowder","Must set up to ranged attack","No defensive terrain bonus","[+200]% Strength <vs cities> <when attacking>"],
+		"requiredTech": "Gunpowder"
+	},
+	{
+		"name": "Tanegashima",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 60,
+		"strength": 35,
+		"cost": 40,
+		"attackSound": "shot",
+		"uniques": ["Ashigaru","Must set up to ranged attack","No defensive terrain bonus","[-1000]% Strength <when attacking> <with [33]% chance> <before discovering [European Techs]>","[-1000]% Strength <when attacking> <with [25]% chance> <after discovering [European Techs]>","[-50]% Strength <vs cities> <when attacking>"],
+		"requiredTech": "Gunpowder"
+	},
+	{
+		"name": "Musketeer",
+		"unitType": "Mercenary",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 100,
+		"strength": 28,
+		"cost": 150,
+		"requiredTech": "Europe-Japan Trading",
+		"uniques": ["European Mercenary","Gunpowder","[-50]% Strength <vs cities> <when attacking>","Unbuildable"]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Field Artillery",
+		"unitType": "Mercenary",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 100,
+		"strength": 28,
+		"cost": 185,
+		"requiredTech": "Europe-Japan Trading",
+		"uniques": ["European Mercenary","Gunpowder","Siege","[+200]% Strength <vs cities> <when attacking>","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Mercenary",
+		"movement": 2,
+		"strength": 35,
+		"range": 2,
+		"rangedStrength": 45,
+		"cost": 120,
+		"requiredTech": "Japan-China Trading",
+		"uniques": ["Chinese Mercenary","Archery","[+35]% Strength <vs [Melee] units> <when attacking>"],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Ninja",
+		"unitType": "Mercenary",
+		"movement": 2,
+		"strength": 34,
+		"range": 1,
+		"rangedStrength": 40,
+		"cost": 120,
+		"requiredTech": "Japan-China Trading",
+		"uniques": ["Scout","May withdraw before melee ([40]%)","Can move after attacking","Can move immediately once bought","Can see over obstacles","Invisible to non-adjacent units","Can see invisible [Ninja] units","Ignores terrain cost","Ignores Zone of Control"],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 100,
+		"strength": 45,
+		"cost": 185,
+		"requiredTech": "Edo Innovations",
+		"uniques": ["Ashigaru","Gunpowder","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
 	}
 ]
