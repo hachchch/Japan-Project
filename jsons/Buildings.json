@@ -364,7 +364,8 @@
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"faith": 2,
-		"requiredBuilding": "European Techs",
+		"requiredTech": "European Techs",
+		"requiredBuilding": "Temple",
 		"uniques": ["[+1 Faith] per [4] population [in this city]"],
 	},
 	{
