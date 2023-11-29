@@ -270,4 +270,129 @@
 		"requiredTech": "Onin Event",
 		"uniques": ["Free [Great Engineer] appears","Gain a free [Workshop] [in all cities]"]
 	},
+	{
+		"name": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Toushoudaiji",
+		"isNationalWonder": true,
+		"faith": 1,
+		"specialistSlots": {"Scientist": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"science": 10},
+		"uniques": ["Requires a [University Dormitory] in all cities"],
+		"requiredTech": "Japan-China Trading"
+	},
+	{
+		"name": "Temple School",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Temple",
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "University Dormitory",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Temple",
+		"uniques": ["[+2 Science] from [Holy site] tiles [in this city]"],
+		"requiredTech": "Capital Planning"
+	},
+	{
+		"name": "Calligraphy School",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Temple",
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Onmyou Dormitory",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Shrine",
+		"uniques": ["[+1 Science, +1 Faith] per [15] population [in this city]"],
+		"requiredTech": "Onmyoudo"
+	},
+	{
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Samurai Chivalry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Ironworks",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Kenjutsu",
+		"uniques": ["New [Sword] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Dramatic War"
+	},
+	{
+		"name": "Samurai Residence",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Gokenin] units start with [15] Experience [in this city]","New [Samurai] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bushido"
+	},
+	{
+		"name": "Cathedral",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"faith": 2,
+		"requiredBuilding": "European Tech",
+		"uniques": ["[+1 Faith] per [4] population [in this city]"],
+	},
+	{
+		"name": "Himeji Castle",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Samurai Chivalry",
+		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
+	},
+	{
+		"name": "Azuchi Castle",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great General": 2},
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Samurai Chivalry",
+	},
+	{
+		"name": "Azuchi Castle",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great General": 2},
+		"uniques": ["[+25]% Strength <for [All] units> <within [2] tiles of a [City center]> <when defending>",
+			"Gain a free [Castle] [in all cities]"],
+		"requiredTech": "Daimyo Laws",
+	},
 ]
