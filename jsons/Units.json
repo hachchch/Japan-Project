@@ -360,7 +360,7 @@
 		"requiredTech": "Onin Event"
 	},
 	{
-		"name": "Ashigaru",
+		"name": "Yari Ashigaru",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 35,
